@@ -1,0 +1,41 @@
+<html>
+<head> <title>THE KITTY'S</title>
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    
+  <link rel="stylesheet" type="text/css" href="style2.css"> 
+    <script src="main2.js"></script>
+</head>
+<body>
+    <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+<center>
+     <h1 class="header">
+        THE KITTY'S <sup>
+        <img src="ic6.png"></sup></h1>
+    <div id="logout" style="text-align: left;margin-bottom: 70px;"></div>
+     <h3 id="user_name" class="color_white"></h3>
+   
+<!--<h2>WELCOME TO KITTY'S ONLINE TRAINING</h2>    -->
+    <img src="kitty2.jpg">
+    
+     <div class="form-group input_div_student_page">
+         <label>#Add Student : </label>
+    <input type="text" id="studen_name" class="form-control" placeholder="#ADD STUDENT"></div>
+        
+        
+<button onclick="addstudent()" class="btn btn-success" id="btn1">#Add-Student</button>
+    
+    <h4 class="color_white">#TRAINING-ROOM</h4>
+    
+        <div id="output"></div>
+</center>   
+    
+</body>
+  
+
+</html>

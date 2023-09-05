@@ -1,0 +1,17 @@
+ 
+        h1{
+            font-family: sans-serif;
+            color: blueviolet;
+            background-color: aliceblue;
+            width: 700px;
+            height: 70px;
+           padding-top: 20px;
+        }
+        body{
+            background-color: #E9F3BC;
+        }
+        #studen_name{
+            width: 700px;
+            
+        }
+   
